@@ -8,6 +8,13 @@ header img {
 	width: 100%;
 }
 
+.dropdown {
+	position:absolute;
+	z-index: 1;
+	top: 10px;
+	right: 10px;
+}
+
 .pet_type {
 	display:block;
 	margin:0;
@@ -33,7 +40,7 @@ header img {
 	z-index:3;
 }
 
-.pet_type:nth-child(even) h2{
+.pet_type:nth-child(odd) h2{
 	text-align:right;
 	top:5px;
 	right:10px;
