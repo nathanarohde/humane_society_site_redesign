@@ -9,7 +9,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
 		<script src="app.js"></script>
-		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="styles/index.css">
 	</head>
 	<body ng-app="petAdoption">
 		<div class="dropdown">
@@ -17,12 +17,12 @@
 				<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
 			</button>
 			<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-			  <li><a tabindex="-1" href="#">Adopt</a></li>
+			  <li><a tabindex="-1" ui-sref="adopt">Adopt</a></li>
 			  <li><a tabindex="-1" href="#">Get Involved</a></li>
-			  <li><a tabindex="-1" href="#">Report Cruelty</a></li>
+			  <li><a tabindex="-1" ui-sref="report-cruelty">Report Cruelty</a></li>
 			  <li><a tabindex="-1" href="#">Training</a></li>
 			  <li><a tabindex="-1" href="#">Services</a></li>
-			  <li><a tabindex="-1" href="#">Visit Us</a></li>
+			  <li><a tabindex="-1" ui-sref="visit-us">Visit Us</a></li>
 			  <li><a tabindex="-1" href="#">Donate</a></li>
 			</ul>
 		</div>
