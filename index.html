@@ -9,6 +9,8 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
 		<script src="app.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="styles/site-wide.css">
 		<link rel="stylesheet" href="styles/index.css">
 	</head>
 	<body ng-app="petAdoption">
@@ -29,8 +31,15 @@
 		<header>
 			<img src="images/humane-society-logo.jpg">
 		</header>
-		<div class="container">
-			<div ui-view></div>
-		</div>
+		<div ui-view></div>
+		<footer>
+			<p>Oregon Humane Society</p>
+			<p>1067 NE Columbia Blvd.</p>
+			<p>(503) 285-7722</p>
+			<p>Hours & Directions</P>
+			<br>
+			<p>© 2014 Oregon Humane Society.</p>
+			<p>All Rights Reserved.</p>
+		</footer>
 	</body>
 </html>

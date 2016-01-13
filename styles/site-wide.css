@@ -1,0 +1,31 @@
+.heading {
+	padding: 1.5px 0 2.5px 0;
+	background-color: #83C0F8;
+	border-bottom:10px solid #f8bb83;
+}
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	margin-left:25px;
+	color:white;
+	font-size: 3rem;
+	letter-spacing: 1px;
+}
+
+h2, h3 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	margin-left:25px;
+	color:#8385F8;
+	letter-spacing: 1px;
+}
+
+p {
+	margin: 0 25px;
+	font-size:1.5rem;
+}
+
+p:last-child{
+	padding-bottom:25px;
+}
