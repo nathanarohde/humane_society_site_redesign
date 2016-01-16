@@ -8,6 +8,9 @@ p {
 	margin-bottom:20px;
 }
 
-.secondary_links div img{
-	border-radius: 25px;	
+.secondary_links img{
+	border-radius: 25px;
+	max-width:90%;
 }
+
+
