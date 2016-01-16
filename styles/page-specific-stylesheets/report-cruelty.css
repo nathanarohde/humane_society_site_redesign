@@ -1,0 +1,15 @@
+body {
+	margin:0;
+}
+
+img {
+	max-width: 100%;
+    height: auto;
+    margin:0;
+    z-index:2;
+}
+
+.full-mobile {
+	padding-left: 0px;
+	padding-right: 0px;
+}

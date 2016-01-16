@@ -24,22 +24,3 @@ p {
 .heading_tab img {
 	border-radius: 0 0 25px 25px;
 }
-
-.secondary_links {
-	text-align:center;
-	width:100%;
-	padding-bottom:20px;
-}
-
-.secondary_links div {
-	display:inline-block;
-	padding-bottom:10px;
-}
-
-.secondary_links div img {
-	border-radius:15px;
-}
-
-.secondary_links div p {
-	z-index:1;
-}

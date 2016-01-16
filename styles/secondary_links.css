@@ -1,0 +1,13 @@
+p {
+	text-align:center;
+}
+
+.secondary_links {
+	text-align:center;
+	margin-top:15px;
+	margin-bottom:20px;
+}
+
+.secondary_links div img{
+	border-radius: 25px;	
+}
