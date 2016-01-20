@@ -23,6 +23,10 @@ header img {
     right:0;
 }
 
+nav {
+	display:none;
+}
+
 footer {
 	border-top:10px solid #f8bb83;
 	background-color: #83C0F8;
@@ -41,6 +45,42 @@ footer p {
 	header {
 		margin: 0 auto;
 		width:100%;
-		max-width:600px;
+		max-width:400px;
 	}
+	.dropdown {
+		display:none;
+	}
+	nav {
+		display:block;
+		float: left;
+	    width: 100%;
+	    overflow: hidden;
+	    position: relative;
+	}
+	nav ul {
+		float: left;
+	    list-style: none;
+	    position: relative;
+	    left: 50%;
+	}
+	nav ul li {
+		display: block;
+	    float: left;
+	    position: relative;
+	    right: 50%;
+	}
+	nav ul li a {
+	    background: #Cc3399;
+	    color: #eee;
+	    text-align: center;
+	    list-style: none;
+	}
+	nav ul li a:hover {
+	    background: #a2b3a1;
+	    color: #000
+	}
+}
+
+@media (min-width:800px) {
+
 }

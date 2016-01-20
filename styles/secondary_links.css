@@ -16,3 +16,9 @@
 .secondary_links .row div:nth-child(3){
 	clear:both;
 }
+
+@media (min-width:600px) {
+	.secondary_links .row div:nth-child(3){
+		clear:right;
+	}
+}
