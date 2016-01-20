@@ -4,16 +4,15 @@
 
 .secondary_links {
 	text-align:center;
-	margin-top:15px;
+	margin-top:25px;
 	margin-bottom:20px;
 }
 
 .secondary_links img{
 	border-radius: 25px;
-	max-width:90%;
+	max-width:80%;
 }
 
 .secondary_links .row div:nth-child(3){
 	clear:both;
-/*	clear:left;
-*/}
+}
