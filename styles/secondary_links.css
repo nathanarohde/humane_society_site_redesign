@@ -1,4 +1,4 @@
-p {
+.secondary_links div div p {
 	text-align:center;
 }
 
@@ -13,4 +13,7 @@ p {
 	max-width:90%;
 }
 
-
+.secondary_links .row div:nth-child(3){
+	clear:both;
+/*	clear:left;
+*/}
