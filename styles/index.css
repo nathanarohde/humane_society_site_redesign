@@ -25,6 +25,9 @@ header img {
 
 nav {
 	display:none;
+	background:white;
+	margin: 0 0 10px 0;
+	padding: 0 0 10px 0;
 }
 
 footer {
@@ -62,6 +65,7 @@ footer p {
 	    list-style: none;
 	    position: relative;
 	    left: 50%;
+	    margin:20px;
 	}
 	nav ul li {
 		display: block;
@@ -70,10 +74,17 @@ footer p {
 	    right: 50%;
 	}
 	nav ul li a {
-	    background: #Cc3399;
+	    background: #8385F8;
 	    color: #eee;
 	    text-align: center;
 	    list-style: none;
+	}
+	nav ul li:first-child a {
+		border-radius: 25px 0 0 25px;
+	}
+
+	nav ul li:last-child a {
+		border-radius: 0 25px 25px 0;
 	}
 	nav ul li a:hover {
 	    background: #a2b3a1;

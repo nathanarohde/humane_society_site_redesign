@@ -32,7 +32,8 @@ h2, h3 {
 	font-weight: 700;
 	margin-left:25px;
 	color:#8385F8;
-	letter-spacing: 1px;
+	letter-spacing: .8px;
+	font-size: 2rem;
 }
 
 p {
