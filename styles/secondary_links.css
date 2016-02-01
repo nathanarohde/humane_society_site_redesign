@@ -1,24 +1,33 @@
-.secondary_links div div p {
+.secondary_links div p {
 	text-align:center;
+	margin: 0 0 10px 0;
 }
 
 .secondary_links {
 	text-align:center;
-	margin-top:25px;
-	margin-bottom:20px;
+	margin:20px 20px 10px 20px;
+	padding:0;
 }
 
 .secondary_links img{
 	border-radius: 25px;
-	max-width:80%;
+	max-width:100%;
+	margin:0 0 10px 0;
 }
 
-.secondary_links .row div:nth-child(3){
+.secondary_links div:nth-child(3){
 	clear:both;
 }
 
+.col-xs-6:nth-child(odd), .col-sm-3:nth-child(odd) {
+	padding-left:0;
+}
+.col-xs-6:nth-child(even), .col-sm-3:nth-child(even) {
+	padding-right:0;
+}
+
 @media (min-width:600px) {
-	.secondary_links .row div:nth-child(3){
+	.secondary_links div:nth-child(3){
 		clear:right;
 	}
 }

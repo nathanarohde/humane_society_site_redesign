@@ -1,19 +1,14 @@
-p {
-	text-align:center;
-}
-
 .main_links {
 	text-align:center;
-	margin-bottom:40px;
+	margin:0 20px 15px 20px;
 }
 
 .heading_tab {
 	display:inline-block;
 	border-radius:25px;
 	background-color:#8385F8;
-	margin-top:40px;
-	padding-top:5px;
-	max-width:90%;
+	margin:40px 0 0 0;
+	max-width:100%;
 }
 
 .heading_tab h3 {

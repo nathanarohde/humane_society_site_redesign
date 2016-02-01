@@ -1,70 +1,99 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="petAdoption">
-	<head>
-		<meta charset="UTF-8">
-		<title>Pet Adoption Site</title>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
-		<script src="app.js"></script>
-		<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="styles/site-wide.css">
-		<link rel="stylesheet" href="styles/index.css">
-	</head>
-	<body ng-app="petAdoption">
-		<div class="dropdown">
-			<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-label=""> Menu
-				<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
-			</button>
-			<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-			  <li><a tabindex="-1" ui-sref="adopt">Adopt</a></li>
-			  <li><a tabindex="-1" ui-sref="get-involved">Get Involved</a></li>
-			  <li><a tabindex="-1" ui-sref="report-cruelty">Report Cruelty</a></li>
-			  <li><a tabindex="-1" ui-sref="training">Training</a></li>
-			  <li><a tabindex="-1" ui-sref="services">Services</a></li>
-			  <li><a tabindex="-1" ui-sref="visit-us">Visit Us</a></li>
-			  <li><a tabindex="-1" ui-sref="donate">Donate</a></li>
-			</ul>
-		</div>
-		<header>
-			<img src="images/index/humane-society-logo.jpg">
-		</header>
-		<nav>
-		  <ul class="nav navbar-nav">
-		  	<li class="nav-item">
-		      <a class="nav-link" ui-sref="adopt">Adopt</a>
-		    </li>
-		    <li class="nav-item">
-		      <a class="nav-link" ui-sref="get-involved">Get Involved</a>
-		    </li>
-		    <li class="nav-item">
-		      <a class="nav-link" ui-sref="report-cruelty">Report Cruelty</a>
-		    </li>
-		    <li class="nav-item">
-		      <a class="nav-link" ui-sref="training">Training</a>
-		    </li>
-		    <li class="nav-item">
-		      <a class="nav-link" ui-sref="services">Services</a>
-		    </li>
-		    <li class="nav-item">
-		      <a class="nav-link" ui-sref="visit-us">Visit Us</a>
-		    </li>
-		    <li class="nav-item">
-		      <a class="nav-link" ui-sref="donate">Donate</a>
-		    </li>
-		  </ul>
-		</nav>
-		<div ui-view></div>
-		<footer>
-			<p>Oregon Humane Society</p>
-			<p>1067 NE Columbia Blvd.</p>
-			<p>(503) 285-7722</p>
-			<p>Hours & Directions</P>
-			<br>
-			<p>© 2014 Oregon Humane Society.</p>
-			<p>All Rights Reserved.</p>
-		</footer>
-	</body>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pet Adoption Site</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+    <script src="app.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="styles/site-wide.css">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body ng-app="petAdoption">
+    <div class="container">
+        <div class="row">
+            <div class="dropdown">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-label=""> Menu
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                    <li><a tabindex="-1" ui-sref="adopt">Adopt</a></li>
+                    <li><a tabindex="-1" ui-sref="get-involved">Get Involved</a></li>
+                    <li><a tabindex="-1" ui-sref="report-cruelty">Report Cruelty</a></li>
+                    <li><a tabindex="-1" ui-sref="training">Training</a></li>
+                    <li><a tabindex="-1" ui-sref="services">Services</a></li>
+                    <li><a tabindex="-1" ui-sref="visit-us">Visit Us</a></li>
+                    <li><a tabindex="-1" ui-sref="donate">Donate</a></li>
+                </ul>
+            </div>
+            <header>
+                <img src="images/index/humane-society-logo.jpg">
+            </header>
+            <nav>
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" ui-sref="adopt">Adopt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" ui-sref="get-involved">Get Involved</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" ui-sref="report-cruelty">Report Cruelty</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" ui-sref="training">Training</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" ui-sref="services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" ui-sref="visit-us">Visit Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" ui-sref="donate">Donate</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="sidebar col-sm-3">
+                <div class="sideblock">
+                    <p>
+                        CONNECT Facebook Twitter YouTube Pinterest Instagram Email Location & Hours | Contact Us Get the OHS e-Newsletter
+                    </p>
+                </div>
+                <div class="sideblock">
+                    <p>
+                        OHS SUMMER CAMP Lottery registration for OHS Summer Camps is now open! These popular camps are for youth in grades 3-7 (campers) and 8-12 (counselors). Learn More
+                    </p>
+                </div>
+                <div class="sideblock">
+                    <p>
+                        NEW ADOPTION RECORD In 2015, OHS adopted out a record-breaking 11,522 pets and then some. Meet the lucky record-breaker, Panther >> Learn More
+                    </p>
+                </div>
+                <div class="sideblock">
+                    <p>
+                        YOU MIGHT ALSO LIKE Our Story Visit Us How to Adopt
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-9" ui-view></div>
+            <footer>
+                <p>Oregon Humane Society</p>
+                <p>1067 NE Columbia Blvd.</p>
+                <p>(503) 285-7722</p>
+                <p>Hours & Directions</P>
+                <br>
+                <p>© 2014 Oregon Humane Society.</p>
+                <p>All Rights Reserved.</p>
+            </footer>
+        </div>
+    </div>
+</body>
+
 </html>

@@ -41,6 +41,8 @@ p {
 	font-size:1.5rem;
 }
 
-p:last-child{
-	padding-bottom:25px;
+@media (min-width:768px) {
+	.heading{
+		border-radius: 25px 25px 0 0;
+	}
 }

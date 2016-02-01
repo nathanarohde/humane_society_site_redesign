@@ -1,3 +1,7 @@
+.container{
+	margin: 0 0 0 0;
+}
+
 body {
 	position:relative;
 	margin:0;
@@ -30,7 +34,24 @@ nav {
 	padding: 0 0 10px 0;
 }
 
+.sidebar {
+	display:none;
+}
+
+.sideblock{
+	background:#E9EBFF;
+	border-radius:25px;
+	margin: 0 0 20px 0;
+}
+
+.sideblock p{
+	color:black;
+	padding: 20px 0 20px 0;
+}
+
 footer {
+	clear:both;
+	margin: 10px 0 0 0;
 	border-top:10px solid #f8bb83;
 	background-color: #83C0F8;
 	padding-top:15px;
@@ -86,12 +107,11 @@ footer p {
 	nav ul li:last-child a {
 		border-radius: 0 25px 25px 0;
 	}
-	nav ul li a:hover {
-	    background: #a2b3a1;
-	    color: #000
-	}
 }
 
-@media (min-width:800px) {
+@media (min-width:768px) {
+	.sidebar{
+		display:inline-block;
+	}
 
 }
