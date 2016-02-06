@@ -41,7 +41,7 @@ nav {
 .sideblock{
 	background:#E9EBFF;
 	border-radius:25px;
-	margin: 0 0 20px 0;
+	margin: 0 5px 20px 5px;
 }
 
 .sideblock p{
@@ -51,7 +51,7 @@ nav {
 
 footer {
 	clear:both;
-	margin: 10px 0 0 0;
+	margin: 0 0 0 0;
 	border-top:10px solid #f8bb83;
 	background-color: #83C0F8;
 	padding-top:15px;

@@ -7,12 +7,18 @@ html,body
     overflow-x: hidden; 
 }
 
-.container {
-	padding-left: 0;
-	padding-right: 0;
+.container-fluid {
+	margin:0;
+	padding: 0;
+}
+
+.row{
+	margin:0;
+	padding:0;
 }
 
 .heading {
+	margin: 0 0 0 0;
 	padding: 1.5px 0 2.5px 0;
 	background-color: #83C0F8;
 	border-bottom:10px solid #f8bb83;
@@ -21,7 +27,7 @@ html,body
 h1 {
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
-	margin-left:25px;
+	margin-left:20px;
 	color:white;
 	font-size: 3rem;
 	letter-spacing: 1px;
@@ -30,19 +36,27 @@ h1 {
 h2, h3 {
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
-	margin-left:25px;
+	margin-left:20px;
 	color:#8385F8;
 	letter-spacing: .8px;
 	font-size: 2rem;
 }
 
 p {
-	margin: 0 25px;
+	margin: 0 20px;
 	font-size:1.5rem;
+}
+
+.col-xs-12, .col-sm-9{
+	padding:0 0 0 0;
 }
 
 @media (min-width:768px) {
 	.heading{
 		border-radius: 25px 25px 0 0;
+	}
+
+	.main-body p, .main-body h2, .main-body h3 {
+		margin-left:0;
 	}
 }

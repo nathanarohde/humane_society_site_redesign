@@ -13,7 +13,7 @@ var petAdoption = angular.module("petAdoption",["ui.router"]);
 
 			.state("get-involved",{
 				url:"/get-involved",
-				templateUrl:"partials/get-involved"
+				templateUrl:"partials/get-involved.html"
 			})
 
 			.state("report-cruelty",{
