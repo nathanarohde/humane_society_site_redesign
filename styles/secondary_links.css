@@ -54,3 +54,17 @@
 		text-align:right;
 	}
 }
+
+@media (min-width:1200px){
+	.secondary_links .col-lg-3:nth-child(3), .secondary_links .col-lg-3:nth-child(3) p,
+	.secondary_links .col-lg-3:nth-child(6), .secondary_links .col-lg-3:nth-child(6) p,
+	.secondary_links .col-lg-3:nth-child(7), .secondary_links .col-lg-3:nth-child(7) p {
+		text-align:center;
+	}
+	.secondary_links .col-lg-3:nth-child(4n+1), .secondary_links .col-lg-3:nth-child(4n+1) p{
+		text-align:left;
+	}
+	.secondary_links .col-lg-3:nth-child(4n), .secondary_links .col-lg-3:nth-child(4n) p{
+		text-align:right;
+	}
+}
