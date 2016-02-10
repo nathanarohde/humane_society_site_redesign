@@ -21,3 +21,23 @@
 	border-radius: 0 0 25px 25px;
 	max-width:100%;
 }
+
+@media (min-width:992px){
+	.main_links {
+		padding: 0;
+	}
+	.main_links .col-md-6 {
+		padding: 0 0 0 0;
+	}
+	.main_links .col-md-6:nth-child(odd){
+		text-align: left;
+		padding: 0 10px 0 0;
+	}
+	.main_links .col-md-6:nth-child(even){
+		text-align: right;
+		padding: 0 0 0 10px;
+	}
+	.col-md-6 h3{
+		text-align:center;
+	}
+}
